@@ -1,0 +1,15 @@
+.pagetitle{
+    text-align: center
+}
+
+.mainsection{
+    background: linear-gradient(lime, green)
+}
+
+.contactinfo{
+    background: linear-gradient(yellow, orange)
+}
+
+.projects{
+    background: linear-gradient(red, violet)
+}
