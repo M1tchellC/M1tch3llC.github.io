@@ -1,15 +1,31 @@
+.myimage {
+  float: right;
+  margin-left: 10px;
+  margin-right:10px;
+}
+.caption1 {
+    text-align: right;
+}
+* {
+    margin: 0;
+}
+
 .pagetitle{
     text-align: center
 }
 
-.mainsection{
-    background: linear-gradient(lime, green)
+.intro{
+    background: linear-gradient(lime, green); 
 }
 
-.contactinfo{
-    background: linear-gradient(yellow, orange)
+.mainsection{
+    background: linear-gradient(green, red)
 }
 
 .projects{
     background: linear-gradient(red, violet)
+}
+
+#contactinfo{
+    background: linear-gradient(violet, purple)
 }
