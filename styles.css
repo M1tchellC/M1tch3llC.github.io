@@ -3,8 +3,21 @@
   margin-left: 10px;
   margin-right:10px;
 }
+.myimage1 {
+  float: right;
+  margin-left: 10px;
+  margin-right:10px;
+}
+.myimage2 {
+  float: right;
+  margin-left: 10px;
+  margin-right:10px;
+}
 .caption1 {
     text-align: right;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
 }
 * {
     margin: 0;
@@ -27,5 +40,7 @@
 }
 
 #contactinfo{
-    background: linear-gradient(violet, purple)
+    background: linear-gradient(violet, blue)
 }
+
+
