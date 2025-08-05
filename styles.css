@@ -1,3 +1,9 @@
+.caption1 {
+    text-align: right;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+}
 .myimage {
   float: right;
   margin-left: 10px;
@@ -12,12 +18,6 @@
   float: right;
   margin-left: 10px;
   margin-right:10px;
-}
-.caption1 {
-    text-align: right;
-    border-style: solid;
-    border-color: white;
-    background-color: white;
 }
 * {
     margin: 0;
@@ -42,5 +42,6 @@
 #contactinfo{
     background: linear-gradient(violet, blue)
 }
+
 
 
