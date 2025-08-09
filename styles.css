@@ -28,20 +28,21 @@
 }
 
 .intro{
-    background: linear-gradient(lime, green); 
+    background: linear-gradient(white, white); 
 }
 
 .mainsection{
-    background: linear-gradient(green, red)
+    background: linear-gradient(white, #e6e9f0)
 }
 
 .projects{
-    background: linear-gradient(red, violet)
+    background: linear-gradient(#e6e9f0, #e6e9f0)
 }
 
 #contactinfo{
-    background: linear-gradient(violet, blue)
+    background: linear-gradient(#e6e9f0, #a7bfe8)
 }
+
 
 
 
