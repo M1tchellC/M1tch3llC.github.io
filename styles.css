@@ -4,6 +4,11 @@
     border-color: black;
     background-color: white;
 }
+.caption2 {
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
 .myimage {
   float: right;
   margin-left: 10px;
@@ -45,6 +50,7 @@
 .resumepage{
     background-color: #a7bfe8;
 }
+
 
 
 
