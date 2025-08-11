@@ -1,7 +1,7 @@
 .caption1 {
     text-align: right;
     border-style: solid;
-    border-color: white;
+    border-color: black;
     background-color: white;
 }
 .myimage {
@@ -28,11 +28,11 @@
 }
 
 .intro{
-    background: linear-gradient(white, #e6e9f0); 
+    background: linear-gradient(#e6e9f0, #a7bfe8); 
 }
 
 .mainsection{
-    background: linear-gradient(#e6e9f0, #e6e9f0)
+    background: linear-gradient(#e6e9f0, #a7bfe8)
 }
 
 .projects{
@@ -45,6 +45,7 @@
 .resumepage{
     background-color: #a7bfe8;
 }
+
 
 
 
