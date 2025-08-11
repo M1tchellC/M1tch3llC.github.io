@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitchell's Website</title>
+    <link rel="stylesheet" href="styles.css">
+        <style>
+        .myimage2{
+            display: none;
+        }
+    </style>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #333;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 15px 10px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover,
+    nav ul li a:focus {
+      background-color: #555;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<header>
+    <div class = pagetitle>
+    <h1 style ="font-size: 32px;">Contact Information</h1>
+    </div>
+</header>
+<body>
+    <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</body>
+<div class = mainsection>
+    <h1 style="color: blue;">About Me</h1>
+    <div class = myimage><img src="mypicture.jpg" alt = "My picture" width="" height="300"/> <p class = caption1>A picture of me</p></div>
+    <p> Hello once again, and if it wasn't obvious my name is Mitchell Carney! I have been working with computers since at least middle school, although, really it started much before that.
+    In elementary school I was able to mess around a little with Scratch, which is a simple drag-and-drop coding site. My interest in computers grew throughout the remainder of my K-12 years.
+    In fact, some of the projects you see below I completed in high school, when I learned Python for the first time (My first <em>real</em> experience with coding). In 2020 I started at Saint Petersburg Collegiate High School where I studied Dual Enrolled at Saint Petersburg College for an AA in Computer Science.
+    I was able to learn some C and C++ there and graduated in 2023. In fall of 2023 I started at USF, where I currently am working on my Bachelors in Computer Engineering (Set to graduate May 2026).
+    I switched to the Computer Engineering route becuase I felt it was a more versatile major, and I do have an interest in both Hardware and Software (but primarily software).
+    At USF I have continued to learn more C and Python, while recently, in summer 2025 I took the Global Career Accelerator where I learned to work with Python and SQL to analyze databases, while also studying HTML, CSS and JavaScript independently.
+    </p></br>
+    <div class = myimage2><img src="pcpic.jpg" alt = "My picture" width="300" height="200"/> <p class = caption1>The inside of the PC I built</p></div>
+    <div class = myimage1 onclick="changeimage();"><img src="mypc.jpg" alt = "My picture" width="200" height="200"/> <p class = caption1>The inside of the PC I built</p></div>
+    <script>
+            $('.myimage1').click(function() {
+                alert("That image had quite a glare and wasn't very good, how about this one?");
+                $(this).fadeOut(1000, function() {
+                    $('.myimage2').fadeIn(1000);
+                });
+            });
+    </script>
+    <p style="font-size: 20px;">Programming Languages I Know:</p>
+    <ul>
+        <li>Python</li>
+        <li>C/C++</li>
+        <li>SQL</li>
+        <Li>HTML, CSS & JavaScript (Learning)</Li>
+    </ul></br>
+    <p style="font-size:20px;">Some of My Hobbies Include:</p>
+    <ul style="list-style-type: square;">
+        <li>Reading</li>
+        <li>Playing Video Games on my PC</li>
+        <li>Watching Youtube videos</li>
+        <li>Learning new skills</li>
+    </ul><br>
+    <p style="font-size:20px;">Where I've Worked:</p>
+    <p>My first work experience was helping the Media Specialist at Gulf Beaches Elementary Magnet School (2021-2023), this was volunteer work being done for my bright futures scholarship. During my time there
+    I created spreadsheets detailing the school library inventory, including computers, ipads, books and other technology. Later at the same school (2022-2024) I ended up doing tutoring and some afterschool clubs related to the areas of STEM as well. Some of the skills
+    I learned in these roles were how to explain new concepts to others and and some organization skills. Starting in 2024 I began doing some work for Mad Science of Greater Tampa Bay doing similar things, making spreadsheets, organizing resources, and made a company Onedrive so that the
+    company files could be accessed remotely as needed. In these roles I also have done some video/photo editing work. In summer of 2025 I participated in the Global Career Accelerator: Coding For Data where I worked with both Python and SQL to analyze datasets in order to make data-backed conclusions and recommendations.
+    Some of my projects from the experience are included on the projects page.</p>
+</div>
+</html>

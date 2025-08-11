@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitchell's Website</title>
+    <link rel="stylesheet" href="styles.css">
+        <style>
+        .myimage2{
+            display: none;
+        }
+    </style>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #333;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 15px 10px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover,
+    nav ul li a:focus {
+      background-color: #555;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<header>
+    <div class = pagetitle>
+    <h1 style ="font-size: 32px;">Contact Information</h1>
+    </div>
+</header>
+<body>
+    <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</body>
+<div class = projects>
+    <h1 style="color: blue;">My Projects</h1>
+    <p style="font-size: 20px;">This is a video from a previous project where I was learning to make some simple games in Python</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0nZG4RVRFoU?si=tn7yVEvl4L6_-6Zp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p style="font-size: 20px;"> </br>This is a simple robot I constructed and programmed for an Engineering lab class at USF</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xiEvtOpBsCU?si=MTT4ilQfmicSoVhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p style="font-size: 20px;"> </br>This is the robot my team made for the class final project, it was best in class!</p>
+    <img src="robot.jpg" alt="Our Robot" width="560" height="315"/>
+    <p style="font-size: 20px;"> </br>This is link is a SQL project I did with the Global Career Accelerator working with data from Intel to determine which devices provide the most positive enviromental impact when recycled.</p>   
+    <a style="font-size: 32px;" href="SQL_Project.pdf">Global Career Accelerator SQL Project</a>
+    <p style="font-size: 20px;"> </br>This is link is a Python project I did with the Global Career Accelerator to investigate website viewership statistics for both the Grammy and Recording Academy Websites to determine if they performed better independently or together.</p>
+    <a style="font-size: 32px;" href="PythonDataProject.pdf">Global Career Accelerator Python Project</a>
+    <p style="font-size: 20px;"> </br>This is a code snippet from a C project that scores a sentence based on what letters it uses</p>
+    <img src="c1.jpg" alt="code snippet" width="560" height="315"/>
+    <p style="font-size: 20px;"> </br>The rest of this page was made up from mainly HTML and CSS features (aside from the date and time on the home page), how about some more JavaScript though?</p>
+    <button onclick="alert('Try clicking on the picture of my PC to see some more JavaScript features');" type="button"> Want to see some more JavaScript and jQuery?</button>
+</div>
+</html>
